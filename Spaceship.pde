@@ -17,7 +17,7 @@ public void hyperspace() {
   myYspeed = 0;
   myCenterX = (int)(Math.random()*500);
   myCenterY = (int)(Math.random()*500);
-  myPointDirection = (double)(Math.random()*500);
+  myPointDirection = (int)(Math.random()*500);
 }
   public double getX() {
     return myCenterX;
