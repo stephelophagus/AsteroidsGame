@@ -42,18 +42,18 @@ public void keyPressed() {
     bob.hyperspace();
   }
 
-  if (key == '1') {
+  if (key == 'w') {
     bob.accelerate(0.5);
   }
-  if (key == '2') {
+  if (key == 's') {
     bob.accelerate(-0.5);
   }
 
-  if (key == '3') {
+  if (key == 'd') {
     bob.turn(6.0);
   }
 
-  if (key == '4') {
+  if (key == 'a') {
     bob.turn(-6.0);
   }
 }
