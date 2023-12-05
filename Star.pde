@@ -1,5 +1,4 @@
 
-Star[] sky = new Star[200];
 
 public class Star //note that this class does NOT extend Floater
 {
