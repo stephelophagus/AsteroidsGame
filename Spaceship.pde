@@ -38,4 +38,3 @@ public void hyperspace() {
     return myPointDirection ;
   }
 }
-
