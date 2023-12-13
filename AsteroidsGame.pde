@@ -44,17 +44,25 @@ public void draw()
   }
 
   
-  int a, b;
+  int a,b;
+  
   for (b = 0; b < shots.size(); b++){
     for (a = 0 ; a < asteroids.size(); a++){
       if (dist ((float)asteroids.get(a).getX(), (float)asteroids.get(a).getY(), (float)shots.get(b).getX(), (float)shots.get(b).getY()) < 10){
         asteroids.remove(a);
-        shots.remove(b);
+       shots.remove(b);
         a--;
+        b--;
         break;
       }
+      
+
+      
     }
   }
+  
+  
+  
 } 
 
 public void keyPressed() {
